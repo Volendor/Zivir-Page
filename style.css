@@ -75,7 +75,14 @@ table {
 	border-spacing: 0;
 }
 
+/*
+    My CSS resets
+*/
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
 
 
 /*
@@ -127,3 +134,4 @@ table {
     font-style: italic;
     color: #1F2937;
 }
+
