@@ -194,10 +194,6 @@ button {
     More styles
 */
 
-.cards-section {
-    text-align: center;
-}
-
 /*
     Paddings and margins
 */
@@ -285,4 +281,13 @@ button {
 
 .call-to-action-button {
     border: #F9FAF8 2px solid;
+}
+
+/*
+    Cards styles
+*/
+
+.card-profile img {
+    border: #3882F6 3px solid;
+    border-radius: 15px;
 }
