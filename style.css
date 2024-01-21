@@ -89,8 +89,8 @@ a {
     Styles from style sheet
 */
 
-* {
-    font-family: 'Roboto', serif;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .upper-section,
