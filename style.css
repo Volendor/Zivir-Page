@@ -196,6 +196,10 @@ button {
     More styles
 */
 
+.hero-img img {
+    border-radius: 15px;
+}
+
 /*
     Paddings and margins
 */
