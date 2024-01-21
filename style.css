@@ -138,7 +138,9 @@ body {
     color: #1F2937;
 }
 
-
+button {
+    background-color: #3882F6;
+}
 
 /*
     Flex
@@ -233,6 +235,10 @@ p {
     margin: 1vh 0;
 }
 
+button {
+    padding: 1vh 4vh;
+}
+
 /*
     Font styles
 */
@@ -266,4 +272,17 @@ button {
 
 button {
     font-weight: bold;
+}
+
+/*
+    Button styles
+*/
+
+button {
+    border: none;
+    border-radius: 5px;
+}
+
+.call-to-action-button {
+    border: #F9FAF8 2px solid;
 }
