@@ -159,7 +159,7 @@ button {
 
 .hero {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -169,7 +169,7 @@ button {
 
 .cards {
     display: flex;
-    gap: 35px;
+    gap: 40px;
     justify-content: center;
 }
 
