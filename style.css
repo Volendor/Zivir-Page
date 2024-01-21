@@ -1,0 +1,303 @@
+/*
+    CSS reset
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+* {
+    margin: 0;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+
+/*
+    Meyerweb CSS reset
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+    My CSS resets
+*/
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+/*
+    Styles from style sheet
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.upper-section,
+.footer-section {
+    background-color: #1F2937;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.nav,
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.sign-up,
+.call-to-action-block {
+    background-color: #3882F6;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.quote-block {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+/*
+    Flex
+*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero > * {
+    flex: 1;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card-profile {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.call-to-action-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+/*
+    More styles
+*/
+
+/*
+    Paddings and margins
+*/
+
+.upper-section {
+    padding: 3vh 30vh;
+}
+
+.hero {
+    margin: 10vh 0;
+}
+
+.cards-section {
+    padding: 5vh 40vh;
+}
+
+.cards {
+    margin: 10vh 0;
+}
+
+.quote-block {
+    padding: 15vh 45vh;
+}
+
+.call-to-action-block {
+    margin: 15vh 35vh;
+    padding: 5vh 15vh;
+}
+
+.footer-section {
+    padding: 5vh;
+}
+
+p {
+    margin: 1vh 0;
+}
+
+button {
+    padding: 1vh 4vh;
+}
+
+/*
+    Font styles
+*/
+
+.cards-section,
+.footer-section {
+    text-align: center;
+}
+
+.card-text {
+    color: #1F2937;
+}
+
+.quote-text {
+    font-weight: light;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.footer-section,
+.call-to-action-block,
+button {
+    color:#F9FAF8;
+}
+
+.call-to-action-header {
+    font-weight: bold;
+}
+
+button {
+    font-weight: bold;
+}
+
+/*
+    Button styles
+*/
+
+button {
+    border: none;
+    border-radius: 5px;
+}
+
+.call-to-action-button {
+    border: #F9FAF8 2px solid;
+}
+
+/*
+    Cards styles
+*/
+
+.card-profile img {
+    border: #3882F6 3px solid;
+    border-radius: 15px;
+}
+
+/*
+    Call to aciton block styles
+*/
+
+.call-to-action-block {
+    border-radius: 10px;
+}
