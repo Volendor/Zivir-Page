@@ -192,3 +192,40 @@ body {
 .cards-section {
     text-align: center;
 }
+
+/*
+    Paddings and margins
+*/
+
+.upper-section {
+    padding: 3vh 30vh;
+}
+
+.hero {
+    margin: 10vh 0;
+}
+
+.cards-section {
+    padding: 5vh 40vh;
+}
+
+.cards {
+    margin: 10vh 0;
+}
+
+.quote-block {
+    padding: 15vh 45vh;
+}
+
+.call-to-action-block {
+    margin: 15vh 35vh;
+    padding: 5vh 15vh;
+}
+
+.footer-section {
+    padding: 5vh;
+}
+
+p {
+    margin: 1vh 0;
+}
